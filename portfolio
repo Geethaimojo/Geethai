@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geethai Kannan T - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>GEETHAI KANNAN T</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Geethai Kannan T, a passionate web developer based in Coimbatore. I specialize in creating dynamic and responsive web applications that provide seamless user experiences. With a strong foundation in front-end technologies like HTML, CSS, and JavaScript, and back-end frameworks like Node.js, I enjoy building full-stack applications that solve real-world problems.
+
+            I graduated from Info institute of engineering with a degree in B.Tech and have since worked on a variety of projects, from personal portfolios to e-commerce platforms. My approach to development is rooted in a commitment to clean code, accessibility, and user-centric design.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>Zomato clone app.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>twitter clone app.</p>
+            </div>
+            <div class="project">
+                <h3>Project 3</h3>
+                <p>local finance application.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: geethai@example.com</p>
+        <p>Phone: 6383340380</p>
+        <p>Address: 1/36, Muthan street, Neruppur, Dharmapuri-636810</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Geethai Kannan T</p>
+    </footer>
+</body>
+</html>
+
+<style>
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project {
+    background: #e7e7e7;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: calc(30% - 40px);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
+</style>
